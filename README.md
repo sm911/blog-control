@@ -1,6 +1,6 @@
 # Blog Control — Centralized Template Management for Security Medic Blogs
 
-**Owner:** WH (Windows Herbie) + LH (Linux Herbie)  
+**Owner:** Blog Content Agent  
 **Version:** 0.1.0 (planning)  
 **Status:** Design Phase  
 
