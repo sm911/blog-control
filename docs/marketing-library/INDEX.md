@@ -26,7 +26,7 @@ This index tracks the completeness of Security Medic's marketing pack library. E
 | AI Security Pillars Overview | SMB | todo | Shadow AI, compliance, vendor risk |
 | AI Security Pillars Overview | Private Enterprise | todo | Board-level AI governance |
 | AI Security Pillars Overview | MSPs | todo | White-label AI security for MSP clients |
-| MSP Partnership Program | MSPs | todo | vCISO co-delivery, compliance templates |
+| MSP Partnership Program | MSPs | draft | vCISO co-delivery — CyberTruck leave-behind |
 | Compliance Program Packages | SMB | todo | HIPAA, SOC 2, NYDFS starter kits |
 | Compliance Program Packages | Public Sector | todo | SLED mandate compliance |
 | Compliance Program Packages | K-12 Secondary | todo | FERPA + student data privacy |
@@ -58,6 +58,7 @@ This index tracks the completeness of Security Medic's marketing pack library. E
 | Cyber Insurance Program Build | K-12 Secondary | todo | District insurance pools, grant alignment |
 | Board Risk Reporting Setup | Private Enterprise | todo | Quarterly cyber risk dashboards, materiality thresholds |
 | Board Risk Reporting Setup | Public Sector | todo | Council/commissioner briefings, public transparency |
+| Cybersecurity Assessment | Public Sector | draft | Municipal/water/SLED discovery — CyberTruck leave-behind |
 
 ---
 
@@ -114,16 +115,20 @@ This index tracks the completeness of Security Medic's marketing pack library. E
 
 ## Summary Statistics
 
-- **Total services × audiences:** 77 packs planned
+- **Total services × audiences:** 78 packs planned
 - **Status breakdown:**
-  - Todo: 74
-  - Draft: 3
+  - Todo: 73
+  - Draft: 5
   - Ready: 0
 
 ### Wave 1 Packs (September 2026)
 - Hudson Valley CISO — AI Governance Retainer × SMB
 - Hudson Valley CISO — AI Governance Retainer × K-12 Secondary
 - Hudson Valley CISO — AI Governance Retainer × Public Sector
+
+### CyberTruck leave-behinds (September 2026)
+- Hudson Valley CISO — Cybersecurity Assessment × Public Sector
+- Security Medic — MSP Partnership Program × MSPs
 
 ---
 
