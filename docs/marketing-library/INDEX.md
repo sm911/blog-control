@@ -45,8 +45,10 @@ This index tracks the completeness of Security Medic's marketing pack library. E
 | Fractional CISO — Tier 2 (Active) | Public Sector | todo | County/regional scope |
 | Fractional CISO — Tier 3 (Strategic) | Private Enterprise | todo | Board reporting, exec risk committee |
 | Fractional CISO — Tier 3 (Strategic) | Public Sector | todo | State agency or large district |
-| AI Governance Retainer | SMB | todo | Shadow AI remediation + policy |
+| AI Governance Retainer | SMB | draft | Shadow AI remediation + policy — Wave 1 |
 | AI Governance Retainer | Private Enterprise | todo | AI risk committee, model governance |
+| AI Governance Retainer | K-12 Secondary | draft | FERPA-compliant AI governance for schools — Wave 1 |
+| AI Governance Retainer | Public Sector | draft | SLED AI governance, grant-eligible — Wave 1 |
 | AI Governance Retainer | MSPs | todo | Client-facing AI risk service |
 | NYDFS 23 NYCRR 500 Compliance | SMB | todo | NY financial services firms |
 | NYDFS 23 NYCRR 500 Compliance | Private Enterprise | todo | Multi-state banks, insurance carriers |
@@ -112,11 +114,16 @@ This index tracks the completeness of Security Medic's marketing pack library. E
 
 ## Summary Statistics
 
-- **Total services × audiences:** 76 packs planned
+- **Total services × audiences:** 77 packs planned
 - **Status breakdown:**
-  - Todo: 76
-  - Draft: 0
+  - Todo: 74
+  - Draft: 3
   - Ready: 0
+
+### Wave 1 Packs (September 2026)
+- Hudson Valley CISO — AI Governance Retainer × SMB
+- Hudson Valley CISO — AI Governance Retainer × K-12 Secondary
+- Hudson Valley CISO — AI Governance Retainer × Public Sector
 
 ---
 
