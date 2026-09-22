@@ -8,7 +8,7 @@
 
 ## Voice & Authority
 
-Security Medic content speaks in the voice of **Jim Venuto**, fractional CISO and founder. The tone is:
+Security Medic content speaks in the voice of **James Venuto**, fractional CISO and founder of Security Medic Consulting, LLC. The tone is:
 
 - **Practical, not theatrical.** Real security work for real organizations. No Hollywood "hacker in a hoodie" drama, no breathless "zero-day apocalypse" hyperbole.
 - **Framework-first.** NIST CSF 2.0, HIPAA Security Rule, NYDFS 23 NYCRR 500, SOC 2, ISO 27001 — these are the blueprints. Security Medic builds programs on frameworks, not vendor FUD.
@@ -118,7 +118,7 @@ Every blog post must include a metadata block as an HTML comment at the top of t
 ```html
 <!-- blog-control-meta
 title: Your Post Title Here
-author: Jim Venuto
+author: James Venuto
 date: YYYY-MM-DD
 category: Primary Category
 tags: tag1, tag2, tag3
@@ -139,8 +139,8 @@ canonical_url: https://other-site.com/original-post (if republished from another
 ### Metadata Field Definitions
 
 - **title:** Post headline. Should be compelling, specific, and under 80 characters for meta tags.
-- **author:** Default "Jim Venuto" unless guest post.
-- **date:** Publication date in ISO format (YYYY-MM-DD). Used for sorting and recency scoring.
+- **author:** Default "James Venuto" unless guest post.
+- **date:** Publication date in ISO format (YYYY-MM-DD). Must equal the America/New_York calendar day James Approves the staging draft (set on promote), not the research/draft day. Used for sorting and recency scoring.
 - **category:** One primary category from the blog's category list (see blog theme files in `themes/`).
 - **tags:** Comma-separated list of specific topics, technologies, or frameworks mentioned. Used for filtering and related post suggestions.
 - **read_time:** Estimated reading time in minutes. Blog-control can auto-calculate this from word count, but manual entry allows for adjustment based on complexity.
@@ -158,6 +158,27 @@ If blog-control encounters a post without the required metadata block, it will:
 3. Default to "Uncategorized" and today's date if extraction fails.
 
 **Fix missing metadata immediately.** Audit your blog with `./blog-control.sh audit --blog <blog-name>` to identify posts that need metadata blocks added.
+
+---
+
+
+## Byline & publish-date rules (standing)
+
+**Visible byline must be exactly:**
+- **Name:** James Venuto
+- **Title/line:** Security Medic Consulting, LLC - AI Cyber Security and Privacy
+
+Do **not** use “Jim Venuto”, “Hudson Valley CISO”, or category chips in the byline. Category may appear in a separate site header/label element where the house layout already has one.
+
+**Publish / display date = Approve day (America/New_York), not research/draft day.**
+- Staging drafts may keep a draft/placeholder date while `status: review`.
+- On promote after James Approves in staging, set the article date (visible byline date + `blog-control-meta` / `<meta>` date) to that Approve day in America/New_York.
+- Chat approval is **not** promote authority; only staging Approve (dashboard / `[STAGING-APPROVE]` issue) triggers promote + date stamp.
+
+Canonical compliance byline example:
+```html
+<div class="byline">By James Venuto | September 22, 2026 | Security Medic Consulting, LLC - AI Cyber Security and Privacy</div>
+```
 
 ---
 
