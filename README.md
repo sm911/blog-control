@@ -4,6 +4,8 @@
 **Version:** 0.1.0 (planning)  
 **Status:** Design Phase  
 
+> **Estate Map:** See [`docs/ESTATE-MAP.md`](docs/ESTATE-MAP.md) for the source of truth on how Jim's sm911 GitHub estate is organized (brands, sites, blogs, products, pursuits, IBM attic, personal, forks).
+
 ---
 
 ## What This Is
