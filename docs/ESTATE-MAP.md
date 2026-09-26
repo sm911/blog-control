@@ -26,8 +26,8 @@ Security Medic operates four primary brand websites plus two reserved/redirect-o
 | **CyberIntelPro** | [cyberintelpro-website](https://github.com/sm911/cyberintelpro-website) | Vercel (Next.js) | cyberintelpro.com | **Active** — [CONFIRM: site vs redirect] |
 | **Privacy Medic** | [privacymedic.com](https://github.com/sm911/privacymedic.com) | Vercel (Next.js) | privacymedic.com | **Active** — [CONFIRM: site vs redirect] |
 | **GRC Resilience** | [grcresilience.com](https://github.com/sm911/grcresilience.com) | Content dump (not a site scaffold) | grcresilience.com | [GAP: rename to `grc-resilience-playbook` or fold into brand docs] |
-| Resilience Medic | [resiliencemedic.com](https://github.com/sm911/resiliencemedic.com) | (empty stub) | resiliencemedic.com | **DELETE-CANDIDATE** — or keep name-parked private |
-| SMC GRC AI | [smcgrc.ai](https://github.com/sm911/smcgrc.ai) | (empty stub, domain redirects to securitymedic.com/services) | smcgrc.ai | **DELETE-CANDIDATE** |
+| Resilience Medic | [resiliencemedic.com](https://github.com/sm911/resiliencemedic.com) | (empty stub) | resiliencemedic.com | **ARCHIVED** (Sep 26 2026) — hard-delete blocked, archived instead |
+| SMC GRC AI | [smcgrc.ai](https://github.com/sm911/smcgrc.ai) | (empty stub, domain redirects to securitymedic.com/services) | smcgrc.ai | **ARCHIVED** (Sep 26 2026) — hard-delete blocked, archived instead |
 
 ### Brand Domain Ambiguities (Needs Jim's Decision)
 
@@ -85,8 +85,8 @@ See `GUIDANCE.md` for editorial focus, metadata requirements, and routing decisi
 | **blog-staging** | Unlisted review site for all blogs | https://sm911.github.io/blog-staging/ | **Active** — Jim approves here before promotion |
 | **blog-control** | Template library, marketing library, GUIDANCE, and this estate map | (this repo) | **Active** — control plane for all blog production |
 | **hudsonvalleyciso-staging** | Govern homepage staging mockup | (unlisted GH Pages) | **Keep as canonical** |
-| ~~hvciso-govern-staging~~ | Duplicate of above (byte-identical `index.html`) | (unlisted) | **DELETE-CANDIDATE** — confirmed identical SHA |
-| **blogdrafts** | Legacy drafts (Mar 2026) | (local only) | **Merge useful drafts → blog-staging, then Archive** |
+| ~~hvciso-govern-staging~~ | Duplicate of above (byte-identical `index.html`) | (unlisted) | **ARCHIVED** (Sep 26 2026) — hard-delete blocked, archived as duplicate |
+| **blogdrafts** | Legacy drafts (Mar 2026) | (local only) | **ARCHIVED** (Sep 26 2026) |
 | **hvfusion** | Tiny static HTML Pages site (unclear brand role) | (Pages) | [GAP: document purpose or Archive] |
 
 ---
@@ -109,7 +109,7 @@ Active products, SaaS platforms, and productized tools that are sellable or supp
 | [claims_dashboard](https://github.com/sm911/claims_dashboard) | Parallel claims ROI app (same era, larger) | Internal/sales tool | [GAP: merge → decide winner vs v1] |
 | [claims-roi-assessment](https://github.com/sm911/claims-roi-assessment) | Pre-sales ROI calculator (Next/API/worker) | Sales tool | [Merge into claims product monorepo] |
 | [starter-kit](https://github.com/sm911/starter-kit) | HV CISO SMB Starter Kit (zip) | Client deliverable | **Active** — [rename `hv-ciso-starter-kit`] |
-| ~~ic4g-catalog~~ | IC4G static product catalog (GH Pages) | IBM-era | **Archive** — legacy IBM product |
+| ~~ic4g-catalog~~ | IC4G static product catalog (GH Pages) | IBM-era | **ARCHIVED** (Sep 26 2026) |
 | [sm-web-portfolio](https://github.com/sm911/sm-web-portfolio) | Estate orchestration monorepo + domain-map (stale vs reality) | Estate docs | [GAP: revive as source of truth or fold map into blog-control?] |
 
 ### Product Ambiguities (Needs Jim's Decision)
@@ -155,20 +155,20 @@ Active and archived pursuit repos. These are **time-boxed** — archive when pur
 
 ## IBM Attic (Legacy Consulting Artifacts)
 
-IBM-era consulting repos from Jim's prior work. **Archive all** unless actively referenced by current products.
+IBM-era consulting repos from Jim's prior work. **Batch A archived** (Sep 26 2026).
 
-| Repo | Purpose | Action |
+| Repo | Purpose | Status |
 |------|---------|--------|
-| [IBM-Public-Cloud-Solutioning-Tool](https://github.com/sm911/IBM-Public-Cloud-Solutioning-Tool) | Learning guide for IBM cloud design/pricing | **Archive** |
-| [ibm-cloud](https://github.com/sm911/ibm-cloud) | Tiny HCL stub | **DELETE-CANDIDATE** |
-| [IBM-Enterprise-Application-Service](https://github.com/sm911/IBM-Enterprise-Application-Service) | Empty | **DELETE-CANDIDATE** |
+| ~~IBM-Public-Cloud-Solutioning-Tool~~ | Learning guide for IBM cloud design/pricing | **ARCHIVED** (Sep 26 2026) |
+| ~~ibm-cloud~~ | Tiny HCL stub | **ARCHIVED** (Sep 26 2026) |
+| ~~IBM-Enterprise-Application-Service~~ | Empty | **ARCHIVED** (Sep 26 2026) — hard-delete blocked, archived instead |
 | [O365-to-IBM-Cloud-Object-Storage](https://github.com/sm911/O365-to-IBM-Cloud-Object-Storage) | Terraform scaffold; README has unresolved merge conflict markers | Archive or fix then Archive |
-| [OnboardingQA](https://github.com/sm911/OnboardingQA) | Pfizer→IBM Cloud onboarding Q&A (Flask) | **Archive** |
-| [CRAG-IBMCLD](https://github.com/sm911/CRAG-IBMCLD) | Old GitLab Pages–style IBM cloud content | **Archive** |
-| [cpa](https://github.com/sm911/cpa) | Cloud backup / IC4G HTML demos | **Archive** |
-| [hpcs](https://github.com/sm911/hpcs) | IBM Hyper Protect Crypto Services HTML | **Archive** |
-| [IL](https://github.com/sm911/IL) | IBM Illinois vision HTML | **Archive** |
-| [pvs](https://github.com/sm911/pvs) | Tiny HTML page | **DELETE-CANDIDATE** / Archive |
+| ~~OnboardingQA~~ | Pfizer→IBM Cloud onboarding Q&A (Flask) | **ARCHIVED** (Sep 26 2026) |
+| ~~CRAG-IBMCLD~~ | Old GitLab Pages–style IBM cloud content | **ARCHIVED** (Sep 26 2026) |
+| ~~cpa~~ | Cloud backup / IC4G HTML demos | **ARCHIVED** (Sep 26 2026) |
+| ~~hpcs~~ | IBM Hyper Protect Crypto Services HTML | **ARCHIVED** (Sep 26 2026) |
+| ~~IL~~ | IBM Illinois vision HTML | **ARCHIVED** (Sep 26 2026) |
+| ~~pvs~~ | Tiny HTML page | **ARCHIVED** (Sep 26 2026) |
 
 ---
 
@@ -182,61 +182,61 @@ Personal and experimental projects. Not client-facing, not Security Medic brande
 | [herbie](https://github.com/sm911/herbie) | Agent instruction/feedback repo for CondorDesk | **Active** — personal |
 | [exercise-routine](https://github.com/sm911/exercise-routine) | Personal workout tracker | Keep or Archive |
 | [bootstrap-fedora42](https://github.com/sm911/bootstrap-fedora42) | Fedora bootstrap scripts | Keep (dotfiles-ish) or Archive |
-| [Movie-Trailer-Website](https://github.com/sm911/Movie-Trailer-Website) | 2017 Udacity-era Python project | **Archive** |
-| [music-blog](https://github.com/sm911/music-blog) | Single orphan HTML (Allan Holdsworth); not in hub | **Archive** |
+| ~~Movie-Trailer-Website~~ | 2017 Udacity-era Python project | **ARCHIVED** (Sep 26 2026) |
+| ~~music-blog~~ | Single orphan HTML (Allan Holdsworth); not in hub | **ARCHIVED** (Sep 26 2026) |
 | [sm911.github.io](https://github.com/sm911/sm911.github.io) | User Pages root (large HTML dump) | [CONFIRM: role vs blogs · likely Archive or reduce to redirects] |
 
-### Personal Stubs (Delete Candidates)
+### Personal Stubs (Batch A Archived)
 
-| Repo | Action |
+| Repo | Status |
 |------|--------|
-| [myfintech](https://github.com/sm911/myfintech) | Empty | **DELETE-CANDIDATE** |
-| [notes](https://github.com/sm911/notes) | Empty | **DELETE-CANDIDATE** |
-| [obsi-cc](https://github.com/sm911/obsi-cc) | Empty (Obsidian/Claude?) | **DELETE-CANDIDATE** |
-| [oc-kali](https://github.com/sm911/oc-kali) | Empty | **DELETE-CANDIDATE** |
-| [test-n8n-20250627](https://github.com/sm911/test-n8n-20250627) | n8n test stub | **DELETE-CANDIDATE** |
+| ~~myfintech~~ | **ARCHIVED** (Sep 26 2026) — hard-delete blocked, archived instead |
+| ~~notes~~ | **ARCHIVED** (Sep 26 2026) — hard-delete blocked, archived instead |
+| ~~obsi-cc~~ | **ARCHIVED** (Sep 26 2026) — hard-delete blocked, archived instead |
+| ~~oc-kali~~ | **ARCHIVED** (Sep 26 2026) — hard-delete blocked, archived instead |
+| ~~test-n8n-20250627~~ | **ARCHIVED** (Sep 26 2026) — hard-delete blocked, archived instead |
 
 ---
 
 ## Fork Shelf (Upstream Mirrors)
 
-Security Medic has **26 forks** of upstream repos. **Default policy: Archive unless actively forked-for-PR or runtime-pinned.**
+Security Medic had **26 forks** of upstream repos. **Batch A archived 23 forks** (Sep 26 2026); 3 kept active.
 
-### Forks to Evaluate (Archive Unless Jim Confirms Dependency)
+### Batch A Archived Forks (Sep 26 2026)
 
-| Repo | Upstream | Suggested Action |
-|------|----------|------------------|
-| [andrej-karpathy-skills](https://github.com/sm911/andrej-karpathy-skills) | multica-ai/… | Archive if unused |
-| [ARTEMIS](https://github.com/sm911/ARTEMIS) | Stanford-Trinity/… | Archive |
-| [awesome-claude-skills](https://github.com/sm911/awesome-claude-skills) | ComposioHQ/… | Archive (star upstream instead) |
-| [cai](https://github.com/sm911/cai) | aliasrobotics/cai | Archive |
-| [caii](https://github.com/sm911/caii) | torchy55/caii | Archive |
-| [claude-code-obsidian-starter](https://github.com/sm911/claude-code-obsidian-starter) | ArtemXTech/… | Archive |
-| [claude-flow](https://github.com/sm911/claude-flow) | ruvnet/ruflo | Archive |
-| [claude-plugins-official](https://github.com/sm911/claude-plugins-official) | anthropics/… | **Keep only if** tracking/vendored plugins |
-| [clawdbot](https://github.com/sm911/clawdbot) | openclaw/openclaw | **Keep if** Mission Control / herbie depends on local fork |
-| [context-engineering-hub](https://github.com/sm911/context-engineering-hub) | dynamous-community/… | Archive |
-| [Daemon](https://github.com/sm911/Daemon) | danielmiessler/Daemon | Archive |
-| [DevSecOps-MaturityModel](https://github.com/sm911/DevSecOps-MaturityModel) | dsom/… | Archive |
-| [docling](https://github.com/sm911/docling) | docling-project/… | Archive |
-| [Fabric](https://github.com/sm911/Fabric) | danielmiessler/Fabric | Archive |
-| [naabu](https://github.com/sm911/naabu) | projectdiscovery/… | Archive |
-| [notebookllm-mindmap-exporter](https://github.com/sm911/notebookllm-mindmap-exporter) | rootsongjc/… | Archive |
-| [personal-os-skills](https://github.com/sm911/personal-os-skills) | ArtemXTech/… | Archive |
-| [Personal_AI_Infrastructure](https://github.com/sm911/Personal_AI_Infrastructure) | danielmiessler/LifeOS | Archive |
-| [remote-coding-agent](https://github.com/sm911/remote-coding-agent) | dynamous-community/… | Archive unless course WIP |
-| [SecLists](https://github.com/sm911/SecLists) | danielmiessler/SecLists (**huge, 2.8M+ size**) | **Archive or delete** — don't mirror massive wordlists |
-| [skills](https://github.com/sm911/skills) | trailofbits/skills | Archive (or keep if actively used in agents) |
-| [SOC-Analyst-Career-Guide](https://github.com/sm911/SOC-Analyst-Career-Guide) | PacktPublishing/… | Archive |
-| [Substrate](https://github.com/sm911/Substrate) | danielmiessler/Substrate | Archive |
-| [SuperClaude_Framework](https://github.com/sm911/SuperClaude_Framework) | SuperClaude-Org/… | Archive |
-| [Telos](https://github.com/sm911/Telos) | danielmiessler/Telos | Archive |
-| [zeroclaw](https://github.com/sm911/zeroclaw) | zeroclaw-labs/… | Archive unless evaluating vs OpenClaw |
+| Repo | Upstream | Status |
+|------|----------|--------|
+| ~~andrej-karpathy-skills~~ | multica-ai/… | **ARCHIVED** (Sep 26 2026) |
+| ~~ARTEMIS~~ | Stanford-Trinity/… | **ARCHIVED** (Sep 26 2026) |
+| ~~awesome-claude-skills~~ | ComposioHQ/… | **ARCHIVED** (Sep 26 2026) |
+| ~~cai~~ | aliasrobotics/cai | **ARCHIVED** (Sep 26 2026) |
+| ~~caii~~ | torchy55/caii | **ARCHIVED** (Sep 26 2026) |
+| ~~claude-code-obsidian-starter~~ | ArtemXTech/… | **ARCHIVED** (Sep 26 2026) |
+| ~~claude-flow~~ | ruvnet/ruflo | **ARCHIVED** (Sep 26 2026) |
+| ~~context-engineering-hub~~ | dynamous-community/… | **ARCHIVED** (Sep 26 2026) |
+| ~~Daemon~~ | danielmiessler/Daemon | **ARCHIVED** (Sep 26 2026) |
+| ~~DevSecOps-MaturityModel~~ | dsom/… | **ARCHIVED** (Sep 26 2026) |
+| ~~docling~~ | docling-project/… | **ARCHIVED** (Sep 26 2026) |
+| ~~Fabric~~ | danielmiessler/Fabric | **ARCHIVED** (Sep 26 2026) |
+| ~~naabu~~ | projectdiscovery/… | **ARCHIVED** (Sep 26 2026) |
+| ~~notebookllm-mindmap-exporter~~ | rootsongjc/… | **ARCHIVED** (Sep 26 2026) |
+| ~~personal-os-skills~~ | ArtemXTech/… | **ARCHIVED** (Sep 26 2026) |
+| ~~Personal_AI_Infrastructure~~ | danielmiessler/LifeOS | **ARCHIVED** (Sep 26 2026) |
+| ~~remote-coding-agent~~ | dynamous-community/… | **ARCHIVED** (Sep 26 2026) |
+| ~~SecLists~~ | danielmiessler/SecLists (huge, 2.8M+ size) | **ARCHIVED** (Sep 26 2026) |
+| ~~SOC-Analyst-Career-Guide~~ | PacktPublishing/… | **ARCHIVED** (Sep 26 2026) |
+| ~~Substrate~~ | danielmiessler/Substrate | **ARCHIVED** (Sep 26 2026) |
+| ~~SuperClaude_Framework~~ | SuperClaude-Org/… | **ARCHIVED** (Sep 26 2026) |
+| ~~Telos~~ | danielmiessler/Telos | **ARCHIVED** (Sep 26 2026) |
+| ~~zeroclaw~~ | zeroclaw-labs/… | **ARCHIVED** (Sep 26 2026) |
 
-### Fork Ambiguity (Needs Jim's Decision)
+### Active Forks (Kept)
 
-- **clawdbot / OpenClaw fork:** Required runtime pin for Mission Control/herbie, or safe to archive?
-- **SecLists:** Huge mirror (2.8M+ size). Archive or delete — prefer upstream reference, not owned fork.
+| Repo | Upstream | Purpose |
+|------|----------|---------|
+| [claude-plugins-official](https://github.com/sm911/claude-plugins-official) | anthropics/… | Tracking/vendored plugins |
+| [clawdbot](https://github.com/sm911/clawdbot) | openclaw/openclaw | Mission Control / herbie dependency |
+| [skills](https://github.com/sm911/skills) | trailofbits/skills | Actively used in agents |
 
 ---
 
@@ -287,16 +287,22 @@ variant: optional (staging, wp, v2)
 
 ---
 
-## Next Cleanup Batches (Do Not Execute — Planning Only)
+## Cleanup Batches
 
 The CoS review identified four piecewise cleanup batches. **This estate map documents them; it does not execute them.** Jim approves batches individually.
 
-### Batch A — Safe Cleanup (Approve Anytime)
+### Batch A — Safe Cleanup ✅ **COMPLETED** (Sep 26 2026)
 
-- Archive forks (except any Jim lists as runtime-pinned)
-- Delete empty stubs: `resiliencemedic.com`, `smcgrc.ai`, `notes`, `myfintech`, `obsi-cc`, `oc-kali`, `IBM-Enterprise-Application-Service`, `test-n8n-20250627`
-- Delete `hvciso-govern-staging` (duplicate)
-- Archive `music-blog`, `blogdrafts` (after draft skim), IBM attic, `Movie-Trailer-Website`
+**What was completed:**
+- ✅ Archived 23 forks (kept 3 active: `clawdbot`, `skills`, `claude-plugins-official`)
+- ✅ Archived empty stubs: `resiliencemedic.com`, `smcgrc.ai`, `notes`, `myfintech`, `obsi-cc`, `oc-kali`, `IBM-Enterprise-Application-Service`, `test-n8n-20250627`
+- ✅ Archived `hvciso-govern-staging` (duplicate)
+- ✅ Archived `music-blog`, `blogdrafts`, IBM attic (10 repos), `Movie-Trailer-Website`
+- ✅ Total archived: **45 repos**
+
+**Note:** Hard-delete was blocked for 9 repos (no `delete_repo` permission on CoS GitHub account). These were archived instead, which serves as functional equivalent for estate cleanup.
+
+### Next Batches (Pending)
 
 ### Batch B — Naming & Findability
 
@@ -321,10 +327,11 @@ The CoS review identified four piecewise cleanup batches. **This estate map docu
 ## Inventory Stats (As of Sep 26, 2026)
 
 - **Total visible repos:** 96 (70 owned, 26 forks)
-- **Archived:** 0
-- **Empty stubs (size 0):** 9
-- **Repos with GitHub topics:** 0
-- **Duplicate staging pair:** `hudsonvalleyciso-staging` / `hvciso-govern-staging` confirmed identical
+- **Archived (Batch A):** 45 (23 forks, 22 owned)
+- **Active repos remaining:** 51
+- **Empty stubs (size 0) archived:** 9
+- **Repos with GitHub topics:** 0 (Batch B target)
+- **Hard-delete blocked:** 9 repos archived instead due to permission constraints
 
 ---
 
